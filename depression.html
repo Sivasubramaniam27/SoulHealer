@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="images/logo.png">
+    </div>
+    <ul>
+        <li onclick="fun('1')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Aakko</a></li>
+        <li onclick="fun('2')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Etho ondru ennai</a></li>
+        <li onclick="fun('3')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Kadhal valarthen</a></li>
+        <li onclick="fun('4')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Kanave Kanave</a></li>
+        <li onclick="fun('5')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Vadi pulla Vadi</a></li>
+        <li onclick="fun('6')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>New York Nagaram</a></li>
+    </ul>
+    <ul>
+        <li onclick="fun('7')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Kadhalikathey</a></li>
+        <li onclick="fun('8')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Chola Chola</a></li>
+        <li onclick="fun('9')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Kadhal Yen Kadhal</a></li>
+        <li onclick="fun('10')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Kanave nee nan</a></li>
+        <li onclick="fun('11')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Marappadhilai Nenje</a></li>
+        <li onclick="fun('12')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Yamma Yamma</a></li>
+    </ul>
+    <ul>
+        <li onclick="fun('13')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Poo Urave</a></li>
+        <li onclick="fun('14')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Poo Nee Poo</a></li>
+        <li onclick="fun('15')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Venmathi Venmathiye</a></li>
+        <li onclick="fun('16')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Ennai Kollathey</a></li>
+        <li onclick="fun('17')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Ava Enna Enna</a></li>
+        <li onclick="fun('18')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Yaaro Yaaro</a></li>
+    </ul>
+    <ul>
+        <li onclick="fun('19')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Idhu varai</a></li>
+        <li onclick="fun('20')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Kannoram Kannoram</a></li>
+        <li onclick="fun('21')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Ennai Vitu Uyir</a></li>
+        <li onclick="fun('22')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Yaen ennai pirinhdai</a></li>
+        <li onclick="fun('23')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Usure Pogudhey</a></li>
+        <li onclick="fun('24')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-solid fa-heart-crack"></i></span>Ennodu nee irundhal</a></li>
+    </ul>
+    <script>
+        
+            function fun (e){
+                console.log(e)
+                location.href = `/musicplayer.html?${e}` 
+              }
+    </script>
+    
+    
+</body>
+
+</html>

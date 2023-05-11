@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
+        <link rel="stylesheet" href="./css/select.css">
+        <title>Selection</title>
+    </head>
+    <body>
+      <div class="logo">
+        <img src="images/logo.png">
+    </div>
+        <div class="container">
+            <div class="icon">
+                <div class="imgBx active" style="--i:1;" data-id="content1">
+                  <img src="./images/happy/happy.jpg">
+                </div>
+                <div class="imgBx" style="--i:2;" data-id="content2">
+                    <img src="./images/depression/depression.jpg">
+                  </div>
+                  <div class="imgBx" style="--i:3;" data-id="content3">
+                    <img src="./images/love/love.jpg">
+                  </div>
+                  <div class="imgBx" style="--i:4;" data-id="content4">
+                    <img src="./images/spark/spark.jpg">
+                  </div>
+                  <div class="imgBx" style="--i:5;" data-id="content5">
+                    <img src="./images/devil/devil.jpg">
+                  </div>
+                  <div class="imgBx" style="--i:6;" data-id="content6">
+                    <img src="./images/family/family.jpg">
+                  </div>
+                  <div class="imgBx" style="--i:7;" data-id="content7">
+                    <img src="./images/devotion/devotion.jpg">
+                  </div>
+                  <div class="imgBx" style="--i:8;" data-id="content8">
+                    <img src="./images/explore/explore.jpg">
+                  </div>
+                  
+            </div>
+            <div class="content">
+              <div class="contentBx active" id="content1">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/happy/happy.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>WAVES OF LIFE<br><span>Happy</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-happy.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBx" id="content2">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/depression/depression.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>power of broken heart<br><span>depression</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-depression.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBx" id="content3">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/love/love.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>magic of life<br><span>love</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-love.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBx" id="content4">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/spark/spark.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>dream it do it<br><span>spark</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-motivation.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBx" id="content5">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/devil/devil.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>squad goals<br><span>Friendship</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-friendship.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBx" id="content6">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/family/family.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>heart & art of life<br><span>family</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-family.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBx" id="content7">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/devotion/devotion.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>another face of trust<br><span>Devotion</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-devotion.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBx" id="content8">
+                <div class="card">
+                  <div class="imgBx">
+                    <img src="./images/explore/explore.jpg">
+                  </div>
+                  <div class="textBx">
+                    <h2>endless story<br><span>explore</span></h2>
+                    <ul class="sci">
+                      <li><a href="q-explore.html"><i class="fa-solid fa-music"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <script>
+          let imgBx=document.querySelectorAll('.imgBx');
+          let contentBx=document.querySelectorAll('.contentBx');
+
+          for(let i=0; i<imgBx.length; i++){
+            imgBx[i].addEventListener('mouseover',function(){
+              for(let i=0; i<contentBx.length; i++){
+                contentBx[i].className='contentBx';
+              }
+              document.getElementById(this.dataset.id).className='contentBx active';
+
+              for(let i=0; i<imgBx.length; i++){
+                imgBx[i].className='imgBx';
+              }
+              this.className = 'imgBx active';
+            })
+          }
+                                                                                                           
+        </script>
+    </body>
+</html>

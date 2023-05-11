@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="images/logo.png">
+    </div>
+    <ul>
+        <li onclick="fun('1')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Aheeraa</a></li>
+        <li onclick="fun('2')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Pala Palakura</a></li>
+        <li onclick="fun('3')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Thayya Thayya</a></li>
+        <li onclick="fun('4')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Thalli Pogathey</a></li>
+        <li onclick="fun('5')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Poongatre Poongatre</a></li>
+        <li onclick="fun('6')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Vaadi Vaadi</a></li>
+    </ul>
+    <ul>
+        <li onclick="fun('7')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Idhudhaan</a></li>
+        <li onclick="fun('8')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Kadhaipoom maa</a></li>
+        <li onclick="fun('9')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Pudhidhaa ellame</a></li>
+        <li onclick="fun('10')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Oru Nooru Murai</a></li>
+        <li onclick="fun('11')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Nira Nira nee en</a></li>
+        <li onclick="fun('12')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Mental Manathil</a></li>
+    </ul>
+    <ul>
+        <li onclick="fun('13')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Thozhi</a></li>
+        <li onclick="fun('14')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Life of Ram</a></li>
+        <li onclick="fun('15')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Pulara Kadhalae</a></li>
+        <li onclick="fun('16')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Parakum Raasaliye</a></li>
+        <li onclick="fun('17')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Pagal Iravai</a></li>
+        <li onclick="fun('18')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Bodhai Kanamae</a></li>
+    </ul>
+    <ul>
+        <li onclick="fun('19')" style="--i:6;--clr:#1877f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Ponni Nadhi</a></li>
+        <li onclick="fun('20')" style="--i:5;--clr:#25d366;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Yaar Azhaippadhu</a></li>
+        <li onclick="fun('21')" style="--i:4;--clr:#1da1f2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Yello Pullelo</a></li>
+        <li onclick="fun('22')" style="--i:3;--clr:#c32aa3;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>En iniya thanimaiyae</a></li>
+        <li onclick="fun('23')" style="--i:2;--clr:#ff0000;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Analum Indha Mayakam</a></li>
+        <li onclick="fun('24')" style="--i:1;--clr:#0a66c2;"><a href="#"><span><i class="fa-brands fa-twitter"></i></span>Arjunar Villu</a></li>
+    </ul>
+    <script>
+        
+        function fun (e){
+            console.log(e)
+            location.href = `/music-explore.html?${e}` 
+          }
+</script>
+
+    
+</body>
+</html>
